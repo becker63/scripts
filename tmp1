@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo setsid sh -c 'sudo -H -u becker /usr/bin/python3 /home/becker/code/scripts/latency.py <> /dev/pts/2 >&0 2>&1'
